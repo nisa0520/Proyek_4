@@ -25,9 +25,9 @@ fun ProfileScreen(
     modifier: Modifier = Modifier
 ) {
     var isEditing by remember { mutableStateOf(false) }
-    var studentName by remember { mutableStateOf("Mahasiswa JTK") }
-    var studentId by remember { mutableStateOf("22222") }
-    var studentEmail by remember { mutableStateOf("mahasiswa@jtk.polban.ac.id") }
+    var studentName by remember { mutableStateOf("Annisa Suci Soleha") }
+    var studentId by remember { mutableStateOf("231511005") }
+    var studentEmail by remember { mutableStateOf("annisa.suci@jtk.polban.ac.id") }
     var profileImageUri by remember { mutableStateOf<Uri?>(null) }
 
     val imagePickerLauncher = rememberLauncherForActivityResult(
